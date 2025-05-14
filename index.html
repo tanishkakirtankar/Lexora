@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopNow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Lexora</div>
+    <input type="text" class="search" placeholder="Search for products, brands..." />
+    <div class="nav-icons">
+      <a href="#">Login</a>
+      <a href="#">Cart</a>
+      <a href="#">More</a>
+    </div>
+  </header>
+
+  <!-- Product Grid -->
+  <main class="product-grid">
+    <!-- Example Product -->
+    <div class="product-card">
+      <img src="" alt="Product 1">
+      <h3>Pearl Ring</h3>
+      <p>₹10,999</p>
+      <button onclick="addToCart('Stylish Sneakers')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Earring</h3>
+      <p>₹799</p>
+      <button onclick="addToCart('Denim Jacket')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Diamond Pendant</h3>
+      <p>₹1,99,999</p>
+      <button onclick="addToCart('Denim Jacket')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Bracelet</h3>
+      <p>₹499</p>
+      <button onclick="addToCart('Denim Jacket')">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
